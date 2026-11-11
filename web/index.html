@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Animated Shorts Arena</title>
+<meta name="description" content="A studio for cartoon 3D story shorts — 2D characters in colourful 3D worlds, rendered with three.js and Remotion." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>" />
+<style>
+  :root {
+    --bg: #0e1016; --panel: #171a23; --panel-2: #1e2230;
+    --text: #eef0f6; --muted: #9aa3b5; --accent: #ffc46b; --accent-2: #7ea6ff;
+    --border: #2a2e3d; radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(1200px 600px at 70% -10%, #232842 0%, var(--bg) 60%);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+  }
+  header {
+    padding: 56px 24px 28px; max-width: 1080px; margin: 0 auto; text-align: center;
+  }
+  .kicker { letter-spacing: .22em; text-transform: uppercase; font-size: 11px; color: var(--accent); font-weight: 600; }
+  h1 { font-size: clamp(34px, 6vw, 56px); font-weight: 800; margin: 14px 0 12px; letter-spacing: -0.02em; }
+  h1 span { background: linear-gradient(120deg, var(--accent), #ff8e6e); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  p.sub { color: var(--muted); max-width: 560px; margin: 0 auto; line-height: 1.6; font-size: 15px; }
+  main { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+  .section-title { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin: 28px 4px 14px; display: flex; align-items: center; gap: 12px; }
+  .section-title::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+    overflow: hidden; transition: transform .25s ease, border-color .25s ease;
+    text-decoration: none; color: inherit; display: block;
+  }
+  .card:hover { transform: translateY(-4px); border-color: var(--accent-2); }
+  .thumb { aspect-ratio: 9/16; background: linear-gradient(160deg, #2a2f47, #141722 70%); display: flex; align-items: center; justify-content: center; font-size: 44px; position: relative; }
+  .thumb .dur { position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,.65); border-radius: 6px; font-size: 11px; padding: 3px 8px; color: #fff; }
+  .meta { padding: 14px 16px 16px; }
+  .meta h3 { font-size: 16px; margin-bottom: 6px; letter-spacing: -0.01em; }
+  .meta p { color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+  .badge { display: inline-block; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); border: 1px solid rgba(255,196,107,.35); border-radius: 999px; padding: 3px 10px; margin-bottom: 8px; }
+  .empty {
+    border: 1px dashed var(--border); border-radius: 14px; padding: 48px 24px; text-align: center; color: var(--muted);
+  }
+  .empty .big { font-size: 40px; margin-bottom: 12px; }
+  .empty strong { color: var(--text); }
+  footer { border-top: 1px solid var(--border); padding: 18px 24px; text-align: center; color: var(--muted); font-size: 12px; }
+  code { background: var(--panel-2); border-radius: 6px; padding: 2px 7px; font-size: 11.5px; color: var(--accent-2); }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Cartoon 3D Story Shorts</div>
+  <h1>Animated Shorts <span>Arena</span></h1>
+  <p class="sub">Surprising true stories, told in ~60 seconds — flat cartoon characters sliding through colourful painted 3D worlds. Rendered frame-by-frame with three.js + Remotion. No AI video generation.</p>
+</header>
+
+<main>
+  <div class="section-title">Episodes</div>
+  <div class="grid" id="episodes">
+    <div class="empty" style="grid-column: 1 / -1;">
+      <div class="big">🎬</div>
+      <p><strong>First short in production.</strong></p>
+      <p style="margin-top:8px;">Renders and episode cards will appear here automatically<br />as each short is finished.</p>
+    </div>
+  </div>
+
+  <div class="section-title">How it's made</div>
+  <div class="empty" style="padding: 28px 24px; text-align: left; line-height: 2;">
+    <div>1️⃣&nbsp; Research a surprising true story with a visual cause &amp; effect</div>
+    <div>2️⃣&nbsp; ~60 s script — hook, escalation, snap moment, one physics idea</div>
+    <div>3️⃣&nbsp; Voice-over timed word-by-word; shot plan in code (<code>story.ts</code>)</div>
+    <div>4️⃣&nbsp; three.js world + ink outlines + painted textures + lens blur, inside Remotion</div>
+    <div>5️⃣&nbsp; Synthesized march score &amp; SFX (no stock audio), mixed to −15 LUFS</div>
+  </div>
+</main>
+
+<footer>Animated Shorts Arena · built with three.js, Remotion &amp; the cartoon-3d-short skill</footer>
+</body>
+</html>

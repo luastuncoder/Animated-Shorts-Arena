@@ -1,0 +1,1342 @@
+[
+ {
+  "word": "A",
+  "start": 0.0,
+  "end": 0.0864
+ },
+ {
+  "word": "volcano",
+  "start": 0.0864,
+  "end": 0.4318
+ },
+ {
+  "word": "erased",
+  "start": 0.4318,
+  "end": 0.7341
+ },
+ {
+  "word": "summer,",
+  "start": 0.7341,
+  "end": 1.0795
+ },
+ {
+  "word": "and",
+  "start": 1.0795,
+  "end": 1.2522
+ },
+ {
+  "word": "ended",
+  "start": 1.2522,
+  "end": 1.5113
+ },
+ {
+  "word": "up",
+  "start": 1.5113,
+  "end": 1.6409
+ },
+ {
+  "word": "inventing",
+  "start": 1.6409,
+  "end": 2.0727
+ },
+ {
+  "word": "the",
+  "start": 2.0727,
+  "end": 2.2454
+ },
+ {
+  "word": "bicycle.",
+  "start": 2.2454,
+  "end": 2.634
+ },
+ {
+  "word": "April",
+  "start": 2.9777,
+  "end": 3.3297
+ },
+ {
+  "word": "eighteen",
+  "start": 3.3297,
+  "end": 3.8576
+ },
+ {
+  "word": "fifteen.",
+  "start": 3.8576,
+  "end": 4.3855
+ },
+ {
+  "word": "Tambora",
+  "start": 4.5605,
+  "end": 4.8981
+ },
+ {
+  "word": "goes",
+  "start": 4.8981,
+  "end": 5.1092
+ },
+ {
+  "word": "off,",
+  "start": 5.1092,
+  "end": 5.3202
+ },
+ {
+  "word": "the",
+  "start": 5.3202,
+  "end": 5.489
+ },
+ {
+  "word": "biggest",
+  "start": 5.489,
+  "end": 5.8267
+ },
+ {
+  "word": "eruption",
+  "start": 5.8267,
+  "end": 6.2066
+ },
+ {
+  "word": "in",
+  "start": 6.2066,
+  "end": 6.3332
+ },
+ {
+  "word": "recorded",
+  "start": 6.3332,
+  "end": 6.7131
+ },
+ {
+  "word": "history.",
+  "start": 6.7131,
+  "end": 7.0929
+ },
+ {
+  "word": "A",
+  "start": 7.2491,
+  "end": 7.3246
+ },
+ {
+  "word": "hundred",
+  "start": 7.3246,
+  "end": 7.6261
+ },
+ {
+  "word": "and",
+  "start": 7.6261,
+  "end": 7.7769
+ },
+ {
+  "word": "fifty",
+  "start": 7.7769,
+  "end": 8.0031
+ },
+ {
+  "word": "cubic",
+  "start": 8.0031,
+  "end": 8.2292
+ },
+ {
+  "word": "kilometres",
+  "start": 8.2292,
+  "end": 8.6439
+ },
+ {
+  "word": "of",
+  "start": 8.6439,
+  "end": 8.7569
+ },
+ {
+  "word": "rock,",
+  "start": 8.7569,
+  "end": 8.9831
+ },
+ {
+  "word": "forty",
+  "start": 8.9831,
+  "end": 9.2092
+ },
+ {
+  "word": "kilometres",
+  "start": 9.2092,
+  "end": 9.6239
+ },
+ {
+  "word": "into",
+  "start": 9.6239,
+  "end": 9.8124
+ },
+ {
+  "word": "the",
+  "start": 9.8124,
+  "end": 9.9632
+ },
+ {
+  "word": "sky.",
+  "start": 9.9632,
+  "end": 10.1516
+ },
+ {
+  "word": "It",
+  "start": 10.4954,
+  "end": 10.6172
+ },
+ {
+  "word": "killed",
+  "start": 10.6172,
+  "end": 10.9014
+ },
+ {
+  "word": "more",
+  "start": 10.9014,
+  "end": 11.1043
+ },
+ {
+  "word": "than",
+  "start": 11.1043,
+  "end": 11.3073
+ },
+ {
+  "word": "seventy",
+  "start": 11.3073,
+  "end": 11.6321
+ },
+ {
+  "word": "thousand",
+  "start": 11.6321,
+  "end": 11.9974
+ },
+ {
+  "word": "people,",
+  "start": 11.9974,
+  "end": 12.3222
+ },
+ {
+  "word": "mostly",
+  "start": 12.3222,
+  "end": 12.6064
+ },
+ {
+  "word": "of",
+  "start": 12.6064,
+  "end": 12.7282
+ },
+ {
+  "word": "hunger,",
+  "start": 12.7282,
+  "end": 13.0529
+ },
+ {
+  "word": "and",
+  "start": 13.0529,
+  "end": 13.2153
+ },
+ {
+  "word": "it",
+  "start": 13.2153,
+  "end": 13.3371
+ },
+ {
+  "word": "changed",
+  "start": 13.3371,
+  "end": 13.6619
+ },
+ {
+  "word": "the",
+  "start": 13.6619,
+  "end": 13.8242
+ },
+ {
+  "word": "weather",
+  "start": 13.8242,
+  "end": 14.149
+ },
+ {
+  "word": "of",
+  "start": 14.149,
+  "end": 14.2708
+ },
+ {
+  "word": "the",
+  "start": 14.2708,
+  "end": 14.4332
+ },
+ {
+  "word": "whole",
+  "start": 14.4332,
+  "end": 14.6768
+ },
+ {
+  "word": "planet.",
+  "start": 14.6768,
+  "end": 15.0015
+ },
+ {
+  "word": "Eighteen",
+  "start": 15.4078,
+  "end": 15.7813
+ },
+ {
+  "word": "sixteen",
+  "start": 15.7813,
+  "end": 16.1134
+ },
+ {
+  "word": "came,",
+  "start": 16.1134,
+  "end": 16.3624
+ },
+ {
+  "word": "the",
+  "start": 16.3624,
+  "end": 16.5284
+ },
+ {
+  "word": "year",
+  "start": 16.5284,
+  "end": 16.7359
+ },
+ {
+  "word": "without",
+  "start": 16.7359,
+  "end": 17.068
+ },
+ {
+  "word": "a",
+  "start": 17.068,
+  "end": 17.151
+ },
+ {
+  "word": "summer.",
+  "start": 17.151,
+  "end": 17.4831
+ },
+ {
+  "word": "It",
+  "start": 17.6831,
+  "end": 17.8091
+ },
+ {
+  "word": "snowed",
+  "start": 17.8091,
+  "end": 18.1031
+ },
+ {
+  "word": "in",
+  "start": 18.1031,
+  "end": 18.2292
+ },
+ {
+  "word": "June.",
+  "start": 18.2292,
+  "end": 18.4812
+ },
+ {
+  "word": "Harvests",
+  "start": 18.6062,
+  "end": 18.9997
+ },
+ {
+  "word": "failed",
+  "start": 18.9997,
+  "end": 19.3058
+ },
+ {
+  "word": "from",
+  "start": 19.3058,
+  "end": 19.5244
+ },
+ {
+  "word": "Ireland",
+  "start": 19.5244,
+  "end": 19.8742
+ },
+ {
+  "word": "to",
+  "start": 19.8742,
+  "end": 20.0054
+ },
+ {
+  "word": "China.",
+  "start": 20.0054,
+  "end": 20.3114
+ },
+ {
+  "word": "They",
+  "start": 20.5489,
+  "end": 20.7304
+ },
+ {
+  "word": "called",
+  "start": 20.7304,
+  "end": 20.9843
+ },
+ {
+  "word": "it",
+  "start": 20.9843,
+  "end": 21.0932
+ },
+ {
+  "word": "eighteen",
+  "start": 21.0932,
+  "end": 21.4197
+ },
+ {
+  "word": "hundred",
+  "start": 21.4197,
+  "end": 21.7099
+ },
+ {
+  "word": "and",
+  "start": 21.7099,
+  "end": 21.8551
+ },
+ {
+  "word": "froze",
+  "start": 21.8551,
+  "end": 22.0727
+ },
+ {
+  "word": "to",
+  "start": 22.0727,
+  "end": 22.1816
+ },
+ {
+  "word": "death.",
+  "start": 22.1816,
+  "end": 22.4356
+ },
+ {
+  "word": "Oat",
+  "start": 22.6106,
+  "end": 22.8017
+ },
+ {
+  "word": "prices",
+  "start": 22.8017,
+  "end": 23.1363
+ },
+ {
+  "word": "rose",
+  "start": 23.1363,
+  "end": 23.3752
+ },
+ {
+  "word": "eight",
+  "start": 23.3752,
+  "end": 23.662
+ },
+ {
+  "word": "times.",
+  "start": 23.662,
+  "end": 23.9965
+ },
+ {
+  "word": "On",
+  "start": 24.3715,
+  "end": 24.4835
+ },
+ {
+  "word": "Lake",
+  "start": 24.4835,
+  "end": 24.6701
+ },
+ {
+  "word": "Geneva,",
+  "start": 24.6701,
+  "end": 24.9688
+ },
+ {
+  "word": "rained",
+  "start": 24.9688,
+  "end": 25.23
+ },
+ {
+  "word": "in",
+  "start": 25.23,
+  "end": 25.342
+ },
+ {
+  "word": "at",
+  "start": 25.342,
+  "end": 25.454
+ },
+ {
+  "word": "the",
+  "start": 25.454,
+  "end": 25.6032
+ },
+ {
+  "word": "Villa",
+  "start": 25.6032,
+  "end": 25.8272
+ },
+ {
+  "word": "Diodati,",
+  "start": 25.8272,
+  "end": 26.1632
+ },
+ {
+  "word": "an",
+  "start": 26.1632,
+  "end": 26.2751
+ },
+ {
+  "word": "eighteen-year-old",
+  "start": 26.2751,
+  "end": 26.947
+ },
+ {
+  "word": "named",
+  "start": 26.947,
+  "end": 27.171
+ },
+ {
+  "word": "Mary",
+  "start": 27.171,
+  "end": 27.3576
+ },
+ {
+  "word": "Shelley",
+  "start": 27.3576,
+  "end": 27.6562
+ },
+ {
+  "word": "got",
+  "start": 27.6562,
+  "end": 27.8055
+ },
+ {
+  "word": "so",
+  "start": 27.8055,
+  "end": 27.9175
+ },
+ {
+  "word": "bored",
+  "start": 27.9175,
+  "end": 28.1414
+ },
+ {
+  "word": "she",
+  "start": 28.1414,
+  "end": 28.2907
+ },
+ {
+  "word": "wrote",
+  "start": 28.2907,
+  "end": 28.5147
+ },
+ {
+  "word": "Frankenstein.",
+  "start": 28.5147,
+  "end": 29.0373
+ },
+ {
+  "word": "In",
+  "start": 29.4247,
+  "end": 29.5504
+ },
+ {
+  "word": "Baden,",
+  "start": 29.5504,
+  "end": 29.8436
+ },
+ {
+  "word": "a",
+  "start": 29.8436,
+  "end": 29.9273
+ },
+ {
+  "word": "forester",
+  "start": 29.9273,
+  "end": 30.3042
+ },
+ {
+  "word": "and",
+  "start": 30.3042,
+  "end": 30.4718
+ },
+ {
+  "word": "baron",
+  "start": 30.4718,
+  "end": 30.723
+ },
+ {
+  "word": "named",
+  "start": 30.723,
+  "end": 30.9743
+ },
+ {
+  "word": "Karl",
+  "start": 30.9743,
+  "end": 31.1837
+ },
+ {
+  "word": "Drais",
+  "start": 31.1837,
+  "end": 31.4349
+ },
+ {
+  "word": "had",
+  "start": 31.4349,
+  "end": 31.6025
+ },
+ {
+  "word": "the",
+  "start": 31.6025,
+  "end": 31.77
+ },
+ {
+  "word": "same",
+  "start": 31.77,
+  "end": 31.9794
+ },
+ {
+  "word": "problem.",
+  "start": 31.9794,
+  "end": 32.3563
+ },
+ {
+  "word": "The",
+  "start": 32.5438,
+  "end": 32.7364
+ },
+ {
+  "word": "oats",
+  "start": 32.7364,
+  "end": 32.9773
+ },
+ {
+  "word": "were",
+  "start": 32.9773,
+  "end": 33.2182
+ },
+ {
+  "word": "gone,",
+  "start": 33.2182,
+  "end": 33.5072
+ },
+ {
+  "word": "and",
+  "start": 33.5072,
+  "end": 33.6999
+ },
+ {
+  "word": "with",
+  "start": 33.6999,
+  "end": 33.9407
+ },
+ {
+  "word": "them,",
+  "start": 33.9407,
+  "end": 34.2297
+ },
+ {
+  "word": "the",
+  "start": 34.2297,
+  "end": 34.4224
+ },
+ {
+  "word": "horses.",
+  "start": 34.4224,
+  "end": 34.8077
+ },
+ {
+  "word": "So",
+  "start": 35.1078,
+  "end": 35.2564
+ },
+ {
+  "word": "he",
+  "start": 35.2564,
+  "end": 35.405
+ },
+ {
+  "word": "built",
+  "start": 35.405,
+  "end": 35.7022
+ },
+ {
+  "word": "a",
+  "start": 35.7022,
+  "end": 35.8013
+ },
+ {
+  "word": "better",
+  "start": 35.8013,
+  "end": 36.1481
+ },
+ {
+  "word": "horse.",
+  "start": 36.1481,
+  "end": 36.4949
+ },
+ {
+  "word": "Two",
+  "start": 36.4949,
+  "end": 36.6931
+ },
+ {
+  "word": "wheels,",
+  "start": 36.6931,
+  "end": 37.0894
+ },
+ {
+  "word": "a",
+  "start": 37.0894,
+  "end": 37.1885
+ },
+ {
+  "word": "beam,",
+  "start": 37.1885,
+  "end": 37.4858
+ },
+ {
+  "word": "a",
+  "start": 37.4858,
+  "end": 37.5849
+ },
+ {
+  "word": "saddle.",
+  "start": 37.5849,
+  "end": 37.9812
+ },
+ {
+  "word": "No",
+  "start": 38.0937,
+  "end": 38.2679
+ },
+ {
+  "word": "pedals.",
+  "start": 38.2679,
+  "end": 38.7323
+ },
+ {
+  "word": "The",
+  "start": 38.8072,
+  "end": 38.9894
+ },
+ {
+  "word": "Laufmaschine.",
+  "start": 38.9894,
+  "end": 39.6272
+ },
+ {
+  "word": "You",
+  "start": 39.7397,
+  "end": 39.8544
+ },
+ {
+  "word": "push",
+  "start": 39.8544,
+  "end": 39.9977
+ },
+ {
+  "word": "off",
+  "start": 39.9977,
+  "end": 40.1123
+ },
+ {
+  "word": "the",
+  "start": 40.1123,
+  "end": 40.2269
+ },
+ {
+  "word": "ground",
+  "start": 40.2269,
+  "end": 40.4276
+ },
+ {
+  "word": "with",
+  "start": 40.4276,
+  "end": 40.5709
+ },
+ {
+  "word": "your",
+  "start": 40.5709,
+  "end": 40.7142
+ },
+ {
+  "word": "feet.",
+  "start": 40.7142,
+  "end": 40.8862
+ },
+ {
+  "word": "On",
+  "start": 41.1862,
+  "end": 41.3098
+ },
+ {
+  "word": "June",
+  "start": 41.3098,
+  "end": 41.5157
+ },
+ {
+  "word": "the",
+  "start": 41.5157,
+  "end": 41.6804
+ },
+ {
+  "word": "twelfth,",
+  "start": 41.6804,
+  "end": 42.0511
+ },
+ {
+  "word": "eighteen",
+  "start": 42.0511,
+  "end": 42.4217
+ },
+ {
+  "word": "seventeen,",
+  "start": 42.4217,
+  "end": 42.8748
+ },
+ {
+  "word": "he",
+  "start": 42.8748,
+  "end": 42.9984
+ },
+ {
+  "word": "rode",
+  "start": 42.9984,
+  "end": 43.2043
+ },
+ {
+  "word": "from",
+  "start": 43.2043,
+  "end": 43.4102
+ },
+ {
+  "word": "Mannheim",
+  "start": 43.4102,
+  "end": 43.7809
+ },
+ {
+  "word": "to",
+  "start": 43.7809,
+  "end": 43.9044
+ },
+ {
+  "word": "Schwetzingen,",
+  "start": 43.9044,
+  "end": 44.481
+ },
+ {
+  "word": "fourteen",
+  "start": 44.481,
+  "end": 44.8517
+ },
+ {
+  "word": "kilometres",
+  "start": 44.8517,
+  "end": 45.3047
+ },
+ {
+  "word": "in",
+  "start": 45.3047,
+  "end": 45.4283
+ },
+ {
+  "word": "under",
+  "start": 45.4283,
+  "end": 45.6754
+ },
+ {
+  "word": "an",
+  "start": 45.6754,
+  "end": 45.7989
+ },
+ {
+  "word": "hour,",
+  "start": 45.7989,
+  "end": 46.0461
+ },
+ {
+  "word": "on",
+  "start": 46.0461,
+  "end": 46.1696
+ },
+ {
+  "word": "wood,",
+  "start": 46.1696,
+  "end": 46.4168
+ },
+ {
+  "word": "with",
+  "start": 46.4168,
+  "end": 46.6227
+ },
+ {
+  "word": "zero",
+  "start": 46.6227,
+  "end": 46.8286
+ },
+ {
+  "word": "horses.",
+  "start": 46.8286,
+  "end": 47.1581
+ },
+ {
+  "word": "Luckily,",
+  "start": 47.5206,
+  "end": 48.0006
+ },
+ {
+  "word": "it",
+  "start": 48.0006,
+  "end": 48.1606
+ },
+ {
+  "word": "worked.",
+  "start": 48.1606,
+  "end": 48.5872
+ },
+ {
+  "word": "Unluckily,",
+  "start": 48.8248,
+  "end": 49.3516
+ },
+ {
+  "word": "the",
+  "start": 49.3516,
+  "end": 49.5431
+ },
+ {
+  "word": "riders",
+  "start": 49.5431,
+  "end": 49.8784
+ },
+ {
+  "word": "didn't.",
+  "start": 49.8784,
+  "end": 50.2615
+ },
+ {
+  "word": "Mannheim",
+  "start": 50.5115,
+  "end": 50.8205
+ },
+ {
+  "word": "banned",
+  "start": 50.8205,
+  "end": 51.0608
+ },
+ {
+  "word": "them",
+  "start": 51.0608,
+  "end": 51.2325
+ },
+ {
+  "word": "from",
+  "start": 51.2325,
+  "end": 51.4042
+ },
+ {
+  "word": "the",
+  "start": 51.4042,
+  "end": 51.5415
+ },
+ {
+  "word": "pavements.",
+  "start": 51.5415,
+  "end": 51.9192
+ },
+ {
+  "word": "Milan,",
+  "start": 52.0942,
+  "end": 52.4319
+ },
+ {
+  "word": "London",
+  "start": 52.4319,
+  "end": 52.7696
+ },
+ {
+  "word": "and",
+  "start": 52.7696,
+  "end": 52.9626
+ },
+ {
+  "word": "New",
+  "start": 52.9626,
+  "end": 53.1556
+ },
+ {
+  "word": "York",
+  "start": 53.1556,
+  "end": 53.3968
+ },
+ {
+  "word": "followed.",
+  "start": 53.3968,
+  "end": 53.8792
+ },
+ {
+  "word": "Because",
+  "start": 54.2417,
+  "end": 54.5447
+ },
+ {
+  "word": "a",
+  "start": 54.5447,
+  "end": 54.6204
+ },
+ {
+  "word": "volcano",
+  "start": 54.6204,
+  "end": 54.9234
+ },
+ {
+  "word": "is",
+  "start": 54.9234,
+  "end": 55.0369
+ },
+ {
+  "word": "a",
+  "start": 55.0369,
+  "end": 55.1127
+ },
+ {
+  "word": "chimney",
+  "start": 55.1127,
+  "end": 55.4156
+ },
+ {
+  "word": "that",
+  "start": 55.4156,
+  "end": 55.605
+ },
+ {
+  "word": "burps",
+  "start": 55.605,
+  "end": 55.8322
+ },
+ {
+  "word": "a",
+  "start": 55.8322,
+  "end": 55.9079
+ },
+ {
+  "word": "parasol",
+  "start": 55.9079,
+  "end": 56.2109
+ },
+ {
+  "word": "into",
+  "start": 56.2109,
+  "end": 56.4002
+ },
+ {
+  "word": "space.",
+  "start": 56.4002,
+  "end": 56.6653
+ },
+ {
+  "word": "Dim",
+  "start": 56.8841,
+  "end": 57.0644
+ },
+ {
+  "word": "the",
+  "start": 57.0644,
+  "end": 57.2447
+ },
+ {
+  "word": "sun,",
+  "start": 57.2447,
+  "end": 57.4701
+ },
+ {
+  "word": "and",
+  "start": 57.4701,
+  "end": 57.6504
+ },
+ {
+  "word": "the",
+  "start": 57.6504,
+  "end": 57.8308
+ },
+ {
+  "word": "wheat",
+  "start": 57.8308,
+  "end": 58.1013
+ },
+ {
+  "word": "gives",
+  "start": 58.1013,
+  "end": 58.3717
+ },
+ {
+  "word": "up,",
+  "start": 58.3717,
+  "end": 58.5521
+ },
+ {
+  "word": "the",
+  "start": 58.5521,
+  "end": 58.7324
+ },
+ {
+  "word": "oats",
+  "start": 58.7324,
+  "end": 58.9578
+ },
+ {
+  "word": "give",
+  "start": 58.9578,
+  "end": 59.1832
+ },
+ {
+  "word": "up,",
+  "start": 59.1832,
+  "end": 59.3635
+ },
+ {
+  "word": "the",
+  "start": 59.3635,
+  "end": 59.5439
+ },
+ {
+  "word": "horse",
+  "start": 59.5439,
+  "end": 59.8143
+ },
+ {
+  "word": "gives",
+  "start": 59.8143,
+  "end": 60.0848
+ },
+ {
+  "word": "up,",
+  "start": 60.0848,
+  "end": 60.2651
+ },
+ {
+  "word": "the",
+  "start": 60.2651,
+  "end": 60.4455
+ },
+ {
+  "word": "road",
+  "start": 60.4455,
+  "end": 60.6709
+ },
+ {
+  "word": "is",
+  "start": 60.6709,
+  "end": 60.8061
+ },
+ {
+  "word": "yours.",
+  "start": 60.8061,
+  "end": 61.1217
+ },
+ {
+  "word": "Pedals",
+  "start": 61.5092,
+  "end": 61.8238
+ },
+ {
+  "word": "came",
+  "start": 61.8238,
+  "end": 62.0485
+ },
+ {
+  "word": "in",
+  "start": 62.0485,
+  "end": 62.1833
+ },
+ {
+  "word": "the",
+  "start": 62.1833,
+  "end": 62.3631
+ },
+ {
+  "word": "eighteen",
+  "start": 62.3631,
+  "end": 62.7676
+ },
+ {
+  "word": "sixties,",
+  "start": 62.7676,
+  "end": 63.1721
+ },
+ {
+  "word": "then",
+  "start": 63.1721,
+  "end": 63.3967
+ },
+ {
+  "word": "chains,",
+  "start": 63.3967,
+  "end": 63.7563
+ },
+ {
+  "word": "then",
+  "start": 63.7563,
+  "end": 63.981
+ },
+ {
+  "word": "gears.",
+  "start": 63.981,
+  "end": 64.2956
+ },
+ {
+  "word": "A",
+  "start": 64.2956,
+  "end": 64.3855
+ },
+ {
+  "word": "volcano's",
+  "start": 64.3855,
+  "end": 64.8349
+ },
+ {
+  "word": "bad",
+  "start": 64.8349,
+  "end": 65.0147
+ },
+ {
+  "word": "mood",
+  "start": 65.0147,
+  "end": 65.2394
+ },
+ {
+  "word": "became",
+  "start": 65.2394,
+  "end": 65.5539
+ },
+ {
+  "word": "the",
+  "start": 65.5539,
+  "end": 65.7338
+ },
+ {
+  "word": "most-ridden",
+  "start": 65.7338,
+  "end": 66.2731
+ },
+ {
+  "word": "vehicle",
+  "start": 66.2731,
+  "end": 66.6326
+ },
+ {
+  "word": "on",
+  "start": 66.6326,
+  "end": 66.7674
+ },
+ {
+  "word": "Earth.",
+  "start": 66.7674,
+  "end": 67.082
+ },
+ {
+  "word": "So",
+  "start": 67.4445,
+  "end": 67.5547
+ },
+ {
+  "word": "next",
+  "start": 67.5547,
+  "end": 67.7386
+ },
+ {
+  "word": "time",
+  "start": 67.7386,
+  "end": 67.9224
+ },
+ {
+  "word": "someone",
+  "start": 67.9224,
+  "end": 68.2164
+ },
+ {
+  "word": "flies",
+  "start": 68.2164,
+  "end": 68.4369
+ },
+ {
+  "word": "past",
+  "start": 68.4369,
+  "end": 68.6208
+ },
+ {
+  "word": "on",
+  "start": 68.6208,
+  "end": 68.7311
+ },
+ {
+  "word": "a",
+  "start": 68.7311,
+  "end": 68.8046
+ },
+ {
+  "word": "bicycle,",
+  "start": 68.8046,
+  "end": 69.1354
+ },
+ {
+  "word": "that's",
+  "start": 69.1354,
+  "end": 69.3927
+ },
+ {
+  "word": "Mount",
+  "start": 69.3927,
+  "end": 69.6132
+ },
+ {
+  "word": "Tambora's",
+  "start": 69.6132,
+  "end": 69.9808
+ },
+ {
+  "word": "fault.",
+  "start": 69.9808,
+  "end": 70.2381
+ },
+ {
+  "word": "One",
+  "start": 70.5006,
+  "end": 70.6893
+ },
+ {
+  "word": "eruption.",
+  "start": 70.6893,
+  "end": 71.1609
+ },
+ {
+  "word": "One",
+  "start": 71.3172,
+  "end": 71.5289
+ },
+ {
+  "word": "lost",
+  "start": 71.5289,
+  "end": 71.7936
+ },
+ {
+  "word": "summer.",
+  "start": 71.7936,
+  "end": 72.217
+ },
+ {
+  "word": "One",
+  "start": 72.3732,
+  "end": 72.636
+ },
+ {
+  "word": "man,",
+  "start": 72.636,
+  "end": 72.9644
+ },
+ {
+  "word": "no",
+  "start": 72.9644,
+  "end": 73.1615
+ },
+ {
+  "word": "horse.",
+  "start": 73.1615,
+  "end": 73.6213
+ }
+]
