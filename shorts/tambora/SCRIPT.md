@@ -28,26 +28,26 @@ Working folder: shorts/tambora/ · Slug: tambora · Composition: TamboraShort (t
 - **What followed.** Pedal-crank velocipedes (Michaux et al.) in the 1860s; chain drive 1885 (Starley "safety");
   bicycle became the most-ridden vehicle on Earth. [scihub101.com timeline]
 
-## Beat sheet (draft v2 — ~265 words)
+## Beat sheet (draft v4 — FINAL pending approval)
 
 A volcano erased summer — and ended up inventing the bicycle.
 
-April 1815. Mount Tambora, on the island of Sumbawa, goes off — the biggest eruption in recorded history.
-A hundred and fifty cubic kilometres of rock and ash, thrown forty kilometres into the sky.
+April 1815. Tambora goes off — the biggest eruption in recorded history.
+A hundred and fifty cubic kilometres of rock, forty kilometres into the sky.
 
 It killed more than seventy thousand people, mostly of hunger — and it changed the weather of the whole planet.
 
-A year later came 1816 — the year without a summer. June brought snow to New England.
+1816 came — the year without a summer. It snowed in June.
 Harvests failed from Ireland to China. They called it eighteen hundred and froze to death.
 Oat prices rose eight times.
 
-And on Lake Geneva, rained in at the Villa Diodati, an eighteen-year-old named Mary Shelley got so bored she wrote Frankenstein.
+On Lake Geneva, rained in at the Villa Diodati, an eighteen-year-old named Mary Shelley got so bored she wrote Frankenstein.
 
-Meanwhile, in Baden, a forester and baron named Karl Drais had the same problem.
+In Baden, a forester and baron named Karl Drais had the same problem.
 The oats were gone — and with them, the horses.
 
-So he built a better horse. Two wheels, a beam, a saddle.
-No pedals — a running machine. The Laufmaschine. You push off the ground with your feet.
+So he built a better horse: two wheels, a beam, a saddle. No pedals.
+The Laufmaschine. You push off the ground with your feet.
 
 On June the twelfth, 1817, he rode from Mannheim to Schwetzingen — fourteen kilometres in under an hour, on wood, with zero horses.
 
@@ -55,10 +55,10 @@ Luckily, it worked.
 Unluckily, the riders didn't.
 Mannheim banned them from the pavements. Milan, London and New York followed.
 
-Because a volcano is just a chimney that burps a parasol into space.
-Dim the sun a little, and the wheat gives up, the oats give up, the horse gives up — and the road is yours.
+Because a volcano is a chimney that burps a parasol into space.
+Dim the sun, and the wheat gives up, the oats give up, the horse gives up — the road is yours.
 
-The bans didn't last. Pedals came in the 1860s, then chains, then gears — until a volcano's bad mood became the most-ridden vehicle on Earth.
+Pedals came in the 1860s, then chains, then gears — a volcano's bad mood became the most-ridden vehicle on Earth.
 
-So next time someone flies past on a bicycle — remember: that's Mount Tambora's fault.
+So next time someone flies past on a bicycle — that's Mount Tambora's fault.
 One eruption. One lost summer. One man, no horse.
