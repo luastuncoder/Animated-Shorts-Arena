@@ -18,20 +18,29 @@ study). Story, characters and voice are always our own; the reference material i
 | `out/` | Render output, stills, QA sheets | ❌ gitignored |
 | `audio work dirs` | `voice/`, `words.json`, `_cache/` per short | ❌ gitignored |
 
-## Storage & hosting strategy (128 MB local container)
+## Storage & hosting strategy
 
-The local workspace is capped, so heavy artifacts never live in git and are offloaded immediately:
+The sandbox has ~20 GB free, so the environment, assets and renders live on local disk. We still keep git
+source-only for hygiene and use GitHub + Vercel for delivery:
 
-1. **Git (this repo, source only):** code, shot plans, scripts, small configs. Patchset stays tiny.
+1. **Git (this repo, mostly source):** code, shot plans, scripts, configs. `node_modules/`, `out/`, `*.mp4`,
+   `*.wav` are gitignored — binary masters don't belong in git history.
 2. **GitHub Releases (private repo):** final masters — `mix.wav`, 1440x2560 2K master mp4, QA sheets.
-   Attach with `gh release upload <tag> <files>`.
-3. **Vercel (connected team):** hosts the `web/` preview theater — episode cards, QA still galleries and
-   compressed web-size H.264 clips (1080x1920, CRF ~26) for inline playback.
-4. **Local disk hygiene:** Remotion bundles copy `public/` into temp on every bundle — set
-   `REMOTION_TMP` to a large scratch drive before rendering, and clear `remotion-webpack-bundle-*`
-   folders when a project is finished (SKILL.md "Gotchas").
+   `gh release create <tag> <files> --repo luastuncoder/Animated-Shorts-Arena`.
+3. **Vercel (team "RjPrc"):** project `animated-shorts-arena` — **linked to this GitHub repo**, root
+   directory `web/`, static output `.`, production branch `main`. Serves the preview theater: episode cards,
+   QA stills, web-size H.264 clips for inline playback.
+   - ⚠️ Connector limitation: its **first** production deployment cannot be created through the API/tools
+     (`projectSettings` missing for new projects). One manual step fixes it forever:
+     `cd web && npx vercel deploy --prod` (or press Deploy in the Vercel dashboard). All subsequent
+     deployments can be managed programmatically.
+   - Git auto-deploy note: the project's `createDeployments` flag is `disabled`, so pushes may not
+     auto-deploy; we trigger deploys explicitly and merge to `main` for the production site.
+4. **Local disk hygiene:** Remotion bundles copy `public/` into temp on every bundle — set `REMOTION_TMP`
+   (e.g. `/tmp/remotion-tmp`) before rendering, and clear `remotion-webpack-bundle-*` when finished.
 5. **Skill reference frames** (`~/.claude/skills/cartoon-3d-short/references/`) stay on the local machine only —
    never in git, never on Vercel, never attached to releases.
+6. **Kenney CC0 kit** (`public/bridge/kenney/*.glb`) is small enough (~15 MB) to commit when fetched.
 
 ## Toolchain
 
