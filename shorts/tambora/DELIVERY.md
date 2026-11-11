@@ -5,7 +5,7 @@
 | Step | State |
 |---|---|
 | Script (approved v4, `SCRIPT.md`) | done — shots timed to the approved 73.62 s VO |
-| VO (`voice.wav`, −19.5 LUFS, 268 words) | **LOST from the sandbox** (only `voice/words.json` + `voice/segments.json` survive) — mix pending re-supply |
+| VO (`voice.wav`, −19.5 LUFS, 268 words) | **rebuilt** (voice-01 TTS, per-segment `atempo` fit onto the original 73.62 s timeline; max word drift 0.1 ms) — `voice/voice.wav`, `scripts/voice_fit.py` |
 | Look-match (ink → lens DOF → bloom → Neutral tonemap → grade → 1920-based px scaling) | done — raw three/jsm post chain (`src/videos/tambora/post.ts`), verified frame-by-frame |
 | World retheme (Tambora story) | done — `src/videos/tambora/*` |
 | 2K frame render (1440×2560, JPEG q92) | running (chunked, `scripts/render-2k.sh` — resumable; sandbox reboots/crashed browser mid-run do not lose completed chunks) → `out/tambora/frames2k/frame-XXXX.jpeg (normalised after render)` (1..2224, 30 fps, 74.13 s) |
@@ -24,16 +24,30 @@ $FF -hide_banner -y -framerate 30 -start_number 0 -i out/tambora/frames2k/frame-
   out/tambora/tambora_2k_silent.mp4   # validated: h264 High, yuv420p, bt709, limited range
 ```
 
-## Finish the mix (when `voice.wav` is re-supplied)
+## Finish the mix (VO is rebuilt — this is ready to run)
 
-1. Drop the approved VO at `shorts/tambora/voice/voice.wav` (mono 44.1 kHz; expected −19.5 LUFS,
-   73.62 s — matches `words.json`, which ends at 73.621 s; shots are timed to it).
-2. Mix: VO at 0 dB gain (already levelled), plus −15 LUFS march/SFX bed if a score is supplied;
-   if the VO is re-generated from `voice/segments.json` instead, rebuild with
-   `PYTHONPATH=.vendor python3 scripts/voice_build.py voice/segments.json <seg_dir> voice/voice.wav voice/words.json`
-   **but then every shot boundary in `story.ts` must be re-timed to the new `words.json`** —
-   the timeline is locked to the original 73.62 s read.
+The re-generated TTS voice-01 read is ~1.8× slower than the lost original, so a naive rebuild
+would invalidate every shot cut in `story.ts`. `scripts/voice_fit.py` fixes this:
+
+```bash
+PYTHONPATH=.vendor python3 scripts/voice_fit.py shorts/tambora/voice/segments.json \
+  shorts/tambora/voice/seg shorts/tambora/voice/voice.wav shorts/tambora/voice/words.json
+```
+
+It trims per-segment edge silence, time-stretches each segment (pitch-preserving `atempo`)
+so its words span exactly the original timeline (verified: total 73.62 s,
+`words.json` drift vs the original ≤ 0.1 ms — **no shot re-timing needed**), then
+`voice.wav` is gain-normalised to −19.5 LUFS (−0.76 dBTP input, no clipping).
+Note: the source TTS is naturally slower, so per-segment tempo is 1.04–2.7×.
+
+1. `voice.wav` (−19.5 LUFS, 73.62 s, mono 44.1 kHz s16) and `out/tambora/mix.wav`
+   (VO loudness-normalised, −15.8 LUFS, TP −1.5 dB — target delivery level) are both built.
+2. No music/SFX bed exists yet — the mix is VO-only. If a score is added later, drop it in
+   under the VO (bed ≈ −22 LUFS vs VO), re-normalise the mix to ≈ −15 LUFS, and re-mux.
 3. Mux: `scripts/mux.sh out/tambora/tambora_2k_silent.mp4 out/tambora/mix.wav out/tambora/tambora_2k.mp4`
+   (or with the bundled ffmpeg: `FF=node_modules/@remotion/compositor-linux-x64-gnu/ffmpeg;
+   $FF -y -i tambora_2k_silent.mp4 -i out/tambora/mix.wav -c:v copy -c:a aac -b:a 192k
+   -shortest out/tambora/tambora_2k.mp4`)
 
 ## Known gotchas
 

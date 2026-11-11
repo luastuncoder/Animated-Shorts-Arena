@@ -32,3 +32,6 @@ references/
 
 # workspace-local python deps for offline audio tooling (voice_build.py etc.)
 .vendor/
+
+# TTS intermediate segments (re-generatable with voice-01)
+shorts/tambora/voice/seg/
