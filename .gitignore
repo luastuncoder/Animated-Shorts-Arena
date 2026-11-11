@@ -13,6 +13,7 @@ audio/**/_cache/
 
 # heavy static assets: re-fetchable (scripts/fetch-assets.sh) or attached to GitHub Releases
 public/**/*.glb
+!public/kenney/**   # CC0 Kenney kits are small and committed on purpose
 public/**/*.gltf
 public/**/*.hdr
 public/**/*.exr
