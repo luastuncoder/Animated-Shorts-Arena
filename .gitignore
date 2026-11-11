@@ -1,0 +1,29 @@
+# dependencies & caches
+node_modules/
+.remotion/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# render output / scratch — heavy artifacts are NOT committed to git
+out/
+backups/
+audio/**/_cache/
+
+# heavy static assets: re-fetchable (scripts/fetch-assets.sh) or attached to GitHub Releases
+public/**/*.glb
+public/**/*.gltf
+public/**/*.hdr
+public/**/*.exr
+public/**/*.wav
+public/**/*.mp4
+public/**/*.webm
+
+# CRITICAL: the skill's reference frames/sheets are PRIVATE study material.
+# Never commit, upload or publish them (not even to this private repo).
+references/
+
+# final deliverables are stored on GitHub Releases / the Vercel preview site, not in git
+*.mp4
+*.wav
