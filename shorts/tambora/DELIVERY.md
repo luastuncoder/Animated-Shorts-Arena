@@ -1,17 +1,23 @@
 # Tambora — delivery notes (2026-11-11)
 
-## Status
+## Status (updated 2026-11-12, rebuilt after second sandbox wipe)
 
 | Step | State |
 |---|---|
 | Script (approved v4, `SCRIPT.md`) | done — shots timed to the approved 73.62 s VO |
-| VO (`voice.wav`, −19.5 LUFS, 268 words) | **rebuilt** (voice-01 TTS, per-segment `atempo` fit onto the original 73.62 s timeline; max word drift 0.1 ms) — `voice/voice.wav`, `scripts/voice_fit.py` |
+| VO (`voice.wav`, −19.5 LUFS, 268 words) | **rebuilt 2026-11-12** (voice-01 TTS, per-segment `atempo` fit onto the original 73.62 s timeline; `words.json` byte-identical to the committed one — no shot re-timing needed) — rendered to `out/tambora/voice.wav` (−19.55 LUFS) |
+| Mix | **rebuilt** — `out/tambora/mix.wav` (single-pass `loudnorm` I=-15.8, TP=-1.5; VO-only, no music bed yet) |
 | Look-match (ink → lens DOF → bloom → Neutral tonemap → grade → 1920-based px scaling) | done — raw three/jsm post chain (`src/videos/tambora/post.ts`), verified frame-by-frame |
 | World retheme (Tambora story) | done — `src/videos/tambora/*` |
-| 2K frame render (1440×2560, JPEG q92) | running (chunked, `scripts/render-2k.sh` — resumable; sandbox reboots/crashed browser mid-run do not lose completed chunks) → `out/tambora/frames2k/frame-XXXX.jpeg (normalised after render)` (1..2224, 30 fps, 74.13 s) |
-| 2K master encode | **pending frames** — command below |
-| Audio mix + mux | **pending `voice.wav`** — commands below |
-| QA | spot-checks pass (stills in `out/tambora/*.jpg`); final check on the encoded master |
+| 2K frame render (1440×2560, JPEG q92) | **running** (`scripts/render-2k.sh 278`, resumable — completed chunks skipped on re-run) → `out/tambora/frames2k/frame-XXXX.jpeg` (1..2224, 30 fps, 74.13 s) |
+| 2K master encode | pending frames — command below (remember: do **not** add `-shortest` to the mux; it truncates the video to VO length) |
+| Audio mix + mux | pending frames — commands below |
+| QA | spot-checks pass; final check on the encoded master |
+| GitHub Release | **pending — run immediately after the master muxes** (`gh release create tambora-001 out/tambora/tambora_2k.mp4 out/tambora/tambora_2k_silent.mp4 out/tambora/mix.wav --title "Tambora Episode 1 — 'The Volcano That Invented the Bicycle'" --notes-file shorts/tambora/DELIVERY.md`) |
+
+> **Lesson recorded:** build durable artifacts first after any wipe — push git, then Release the master the
+> moment it muxes. The master was previously deleted by a sandbox reset (2026-11-12 ~06:10) before it ever
+> reached the Release.
 
 ## Encode the 2K master (after the frame render finishes)
 
@@ -24,7 +30,7 @@ $FF -hide_banner -y -framerate 30 -start_number 0 -i out/tambora/frames2k/frame-
   out/tambora/tambora_2k_silent.mp4   # validated: h264 High, yuv420p, bt709, limited range
 ```
 
-## Finish the mix (VO is rebuilt — this is ready to run)
+## Finish the mix (done 2026-11-12 — kept for the record)
 
 The re-generated TTS voice-01 read is ~1.8× slower than the lost original, so a naive rebuild
 would invalidate every shot cut in `story.ts`. `scripts/voice_fit.py` fixes this:
@@ -40,14 +46,15 @@ so its words span exactly the original timeline (verified: total 73.62 s,
 `voice.wav` is gain-normalised to −19.5 LUFS (−0.76 dBTP input, no clipping).
 Note: the source TTS is naturally slower, so per-segment tempo is 1.04–2.7×.
 
-1. `voice.wav` (−19.5 LUFS, 73.62 s, mono 44.1 kHz s16) and `out/tambora/mix.wav`
-   (VO loudness-normalised, −15.8 LUFS, TP −1.5 dB — target delivery level) are both built.
+1. `out/tambora/voice.wav` (−19.55 LUFS, 73.62 s) and `out/tambora/mix.wav` (single-pass
+   `loudnorm` I=-15.8 TP=-1.5, VO-only) are both built.
 2. No music/SFX bed exists yet — the mix is VO-only. If a score is added later, drop it in
    under the VO (bed ≈ −22 LUFS vs VO), re-normalise the mix to ≈ −15 LUFS, and re-mux.
 3. Mux: `scripts/mux.sh out/tambora/tambora_2k_silent.mp4 out/tambora/mix.wav out/tambora/tambora_2k.mp4`
-   (or with the bundled ffmpeg: `FF=node_modules/@remotion/compositor-linux-x64-gnu/ffmpeg;
-   $FF -y -i tambora_2k_silent.mp4 -i out/tambora/mix.wav -c:v copy -c:a aac -b:a 192k
-   -shortest out/tambora/tambora_2k.mp4`)
+   (bundled ffmpeg variant: `FF=node_modules/@remotion/compositor-linux-x64-gnu/ffmpeg;
+   $FF -y -i tambora_2k_silent.mp4 -i out/tambora/mix.wav -c:v copy -c:a aac -b:a 192k -ar 44100
+   out/tambora/tambora_2k.mp4` — **no `-shortest`**: VO is shorter than the picture; `-shortest`
+   truncated the video to 2208 frames on the first re-mux).
 
 ## Known gotchas
 
